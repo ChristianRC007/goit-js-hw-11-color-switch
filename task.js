@@ -23,6 +23,7 @@ function startSwitcher() {
     return;
   }
   isActive = true;
+  refs.startBtn.style.color = 'grey';
   intervalId = setInterval(colorSwitcher, 1000);
 }
 
@@ -32,6 +33,7 @@ function randomIntegerFromInterval(min, max) {
 
 function stopSwitcher() {
   isActive = false;
+  refs.startBtn.style.color = 'black';
   clearInterval(intervalId);
 }
 
