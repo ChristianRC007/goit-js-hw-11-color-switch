@@ -1,0 +1,17 @@
+.btn-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 10px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgba(173, 170, 170, 0.5);
+  border: none;
+  cursor: pointer;
+}
